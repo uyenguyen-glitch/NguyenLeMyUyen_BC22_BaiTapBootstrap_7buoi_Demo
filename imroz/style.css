@@ -3,6 +3,9 @@
   --color-white: #ffffff;
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+}
 /* Header */
 header {
   position: absolute;
@@ -69,4 +72,63 @@ header .btn-buy:hover {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
+}
+
+/* Page content */
+.section_container {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+#companyServices .intro_section {
+  text-align: center;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#companyServices .subtitle_section {
+  font-size: 18px;
+  font-weight: 500;
+  background: -webkit-linear-gradient(#1C99FE 20.69%, #7644FF 50.19%, var(--color-primary) 79.69%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#companyServices .title_section {
+  font-size: 52px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+#companyServices .description_section {
+  font-size: 20px;
+  font-weight: 400;
+  color: #c6c6c6;
+}
+
+#companyServices .content_section {
+  padding-top: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+#companyServices .ticket {
+  margin-top: 15px;
+  padding: 45px;
+  background-color: rgb(246, 246, 246);
+  border-radius: 25px; 
+}
+
+.icon_ticket {
+  color: var(--color-primary);
+  margin-bottom: 25px;
+}
+
+.tittle_ticket {
+  font-size: 24px;
+  font-weight: 600;
 }
