@@ -1,0 +1,50 @@
+/* Header */
+header {
+  position: absolute;
+  z-index: 1;
+  background-color: transparent;
+  width: 100%;
+  left: 10%;
+  transform: translateX(-10%);
+}
+
+.navbar {
+  gap: 450px;
+}
+
+.menu li {
+  margin: 0 15px;
+}
+
+.menu li a {
+  color: #ffffff;
+}
+
+header .btn-buy {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  border-radius: 500px;
+  border: 2px solid #6e6965;
+  margin-left: 30px;
+  letter-spacing: 2px;
+  padding: 18px 0;
+  z-index: 1;
+  width: 170px;
+}
+
+/* Carausel */
+
+/* .carousel {
+  padding-top: 160px;
+  padding-bottom: 160px;
+  min-height: auto;
+} */
+
+.carousel-item {
+  /* vh: độ cao tương đối */
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
