@@ -1,23 +1,14 @@
+:root {
+  --color-primary: #FD4766;
+  --color-white: #ffffff;
+}
+
 /* Header */
 header {
   position: absolute;
-  z-index: 1;
+  top: 0;
+  z-index: 1000;
   background-color: transparent;
-  width: 100%;
-  left: 10%;
-  transform: translateX(-10%);
-}
-
-.navbar {
-  gap: 450px;
-}
-
-.menu li {
-  margin: 0 15px;
-}
-
-.menu li a {
-  color: #ffffff;
 }
 
 header .btn-buy {
@@ -33,6 +24,24 @@ header .btn-buy {
   width: 170px;
 }
 
+header .btn-buy:hover {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.menu li {
+  margin: 0 15px;
+}
+
+.menu .nav-link {
+  color: #ffffff;
+  font-weight: 400 !important;
+}
+.menu .nav-link:hover {
+  color: var(--color-primary) !important;
+}
+
 /* Carausel */
 
 /* .carousel {
@@ -40,6 +49,19 @@ header .btn-buy {
   padding-bottom: 160px;
   min-height: auto;
 } */
+.carousel-caption {
+  top: 40%;
+}
+
+.carousel-caption-title {
+  font-weight: 600;
+  font-size: 72px;
+}
+
+.carousel-caption-content {
+  font-size: 28px;
+  font-weight: 100;
+}
 
 .carousel-item {
   /* vh: độ cao tương đối */
